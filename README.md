@@ -1,2 +1,1 @@
 # LondoBlog
-A school project

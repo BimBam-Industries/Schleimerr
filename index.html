@@ -26,12 +26,12 @@
         WebViewer({
           path: 'PDFJSExpress-view-only/lib', // path to the PDF.js Express'lib' folder on your server
           licenseKey: '	rq3OC8YwEEeoDZHI286q',
-          initialDoc: 'schleimer.pdf',
+          initialDoc: './schleimer.pdf',
           
           // initialDoc: '/path/to/my/file.pdf',  // You can also use documents on your server
         }, document.getElementById('viewer'))
         .then(instance => {
-            instance.UI.setTheme('light');
+            instance.UI.setTheme('dark');
             instance.setLayoutMode(instance.LayoutMode.Single);
             instance.setSwipeOrientation('horizontal');
             instance.UI.disableElements([ 'leftPanel', 'leftPanelButton' , 'toolsButton' , 'menuButton', 'selectToolButton', 'header']);
