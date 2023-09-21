@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Include Google Fonts for the custom font -->
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto&display=swap" rel="stylesheet">
     <style>
         /* Reset default margins and padding */
         body, div, img {
@@ -17,13 +23,14 @@
 
         /* Set a background color and font for the body */
         body {
-            background-color: #f2f2f2;
+            background-color: #4C566A;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:#D8DEE9;
         }
 
         /* Navigation bar */
         .navbar {
-            background-color: #333;
+            background-color:#434C5E;
             color: #fff;
             display: flex;
             align-items: center;
@@ -39,10 +46,11 @@
         .navbar-logo i {
             font-size: 24px;
             margin-right: 10px;
+            
         }
 
         .navbar-logo h1 {
-            font-family: 'Pacifico', cursive; /* Custom font for the name */
+            font-family: 'Roboto', sans-serif;
             font-size: 36px;
             margin: 0;
         }
@@ -56,6 +64,9 @@
             justify-content: center;
             height: 80vh;
         }
+        .navbar-logo img{
+            width: 40px;
+        }
 
         /* Style individual comic pages */
         img {
@@ -64,16 +75,19 @@
             height: auto;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
+            background-color: #ffffff;
         }
 
         /* Navigation arrows */
         .nav-btn {
             cursor: pointer;
-            font-size: 30px;
+            font-size: 50px;
             margin-top: 10px;
-            color: #333;
+            color: #D8DEE9
+;
             display: inline-block; /* Display the arrows next to each other */
         }
+
 
         /* Page number display */
         #page-number {
@@ -103,8 +117,8 @@
 <!-- Navigation bar -->
 <div class="navbar">
     <div class="navbar-logo">
-        <i class="fas fa-book"></i> <!-- Replace with your own logo or icon -->
-        <h1>Comic Name</h1>
+      <i class="navbar-logo"><img class="navbar-logo" src="logo.png" alt=""> </i> <!-- Replace with your own logo or icon -->
+        <h1>Schleimer</h1>
     </div>
 </div>
 
